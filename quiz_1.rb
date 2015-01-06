@@ -149,7 +149,7 @@ if quiz_time == "yes"
 	puts quiz[5][:question]
 	puts quiz[5][:answer_choices]
 	answer_six = gets.chomp
-	if answer_six == "A" || answer_six == "Dodoma"
+	if answer_six == "B" || answer_six == "Dodoma"
 		quiz_answers.push(answer_six)
 	else
 	end
