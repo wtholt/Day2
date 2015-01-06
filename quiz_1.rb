@@ -105,7 +105,7 @@ quiz_answers = []
 
 puts "Would you like to take a quiz? Type yes or no"
 quiz_time = gets.chomp
-if quiz_time == "yes"
+if quiz_time == "yes" || quiz_time == "Yes"
 	puts quiz[0][:question]
 	puts quiz[0][:answer_choices]
 	answer_one = gets.chomp
