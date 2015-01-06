@@ -109,7 +109,7 @@ if quiz_time == "yes"
 	puts quiz[0][:question]
 	puts quiz[0][:answer_choices]
 	answer_one = gets.chomp
-	if answer_one == "A" || "Ottawa"
+	if answer_one == "A" || answer_one == "Ottawa"
 		quiz_answers.push(answer_one)
 	else
 	end
@@ -117,7 +117,7 @@ if quiz_time == "yes"
 	puts quiz[1][:question]
 	puts quiz[1][:answer_choices]
 	answer_two = gets.chomp
-	if answer_two == "C" || "Buenos Aires"
+	if answer_two == "C" || answer_two == "Buenos Aires"
 		quiz_answers.push(answer_two)
 	else
 	end
@@ -125,7 +125,7 @@ if quiz_time == "yes"
 	puts quiz[2][:question]
 	puts quiz[2][:answer_choices]
 	answer_three = gets.chomp
-	if answer_three == "B" || "Warsaw"
+	if answer_three == "B" || answer_three == "Warsaw"
 		quiz_answers.push(answer_three)
 	else
 	end
@@ -133,7 +133,7 @@ if quiz_time == "yes"
 	puts quiz[3][:question]
 	puts quiz[3][:answer_choices]
 	answer_four = gets.chomp
-	if answer_four == "C" || "Tokyo"
+	if answer_four == "C" || answer_four == "Tokyo"
 		quiz_answers.push(answer_four)
 	else
 	end
@@ -141,7 +141,7 @@ if quiz_time == "yes"
 	puts quiz[4][:question]
 	puts quiz[4][:answer_choices]
 	answer_five = gets.chomp
-	if answer_five == "B" || "Canberra"
+	if answer_five == "B" || answer_five == "Canberra"
 		quiz_answers.push(answer_five)
 	else
 	end
@@ -149,7 +149,7 @@ if quiz_time == "yes"
 	puts quiz[5][:question]
 	puts quiz[5][:answer_choices]
 	answer_six = gets.chomp
-	if answer_six == "A" || "Dodoma"
+	if answer_six == "A" || answer_six == "Dodoma"
 		quiz_answers.push(answer_six)
 	else
 	end
@@ -157,7 +157,7 @@ if quiz_time == "yes"
 	puts quiz[6][:question]
 	puts quiz[6][:answer_choices]
 	answer_seven = gets.chomp
-	if answer_seven == "C" || "Abuja"
+	if answer_seven == "C" || answer_seven == "Abuja"
 		quiz_answers.push(answer_seven)
 	else
 	end
@@ -165,7 +165,7 @@ if quiz_time == "yes"
 	puts quiz[7][:question]
 	puts quiz[7][:answer_choices]
 	answer_eight = gets.chomp
-	if answer_eight == "B" || "Berlin"
+	if answer_eight == "B" || answer_eight == "Berlin"
 		quiz_answers.push(answer_eight)
 	else
 	end
@@ -173,7 +173,7 @@ if quiz_time == "yes"
 	puts quiz[8][:question]
 	puts quiz[8][:answer_choices]
 	answer_nine = gets.chomp
-	if answer_nine == "A" || "Mexico City"
+	if answer_nine == "A" || answer_nine == "Mexico City"
 		quiz_answers.push(answer_nine)
 	else
 	end
@@ -181,7 +181,7 @@ if quiz_time == "yes"
 	puts quiz[9][:question]
 	puts quiz[9][:answer_choices]
 	answer_ten = gets.chomp
-	if answer_ten == "C" || "Rome"
+	if answer_ten == "C" || answer_ten == "Rome"
 		quiz_answers.push(answer_ten)
 	else
 	end
