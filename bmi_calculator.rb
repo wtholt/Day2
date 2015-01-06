@@ -6,7 +6,7 @@ if answer == "yes"
 	puts "Please enter your height in inches: "
 	height = gets.chomp
 	puts "Thanks for your input! Please wait...system processing"
-	bmi = 703 * weight.to_i/height.to_i ** 2
+	bmi = 703.0 * weight.to_f/height.to_f ** 2.0
 	puts "Your BMI is #{bmi.to_f}"
 
 else
