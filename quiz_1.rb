@@ -190,7 +190,7 @@ if quiz_time == "yes" || quiz_time == "Yes"
 	end
 
 results = quiz_answers.length
-puts "Thank you for taking this quiz #{user_name}! You got #{results} out of 10 right!"
+puts "Thank you for taking this quiz #{user_name.capitalize}! You got #{results} out of 10 right!"
 
 else
 	puts "That's OK, you don't have to take a quiz."
