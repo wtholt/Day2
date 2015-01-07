@@ -17,7 +17,7 @@ if answer == "yes" || answer == "Yes"
 			puts "#{user_name.capitalize}, you are underweight."
 		elsif bmi <= 24.9
 			puts "Congratulations #{user_name.capitalize}, you are at a normal weight."
-		elsif bmi >= 25.0
+		elsif bmi > 25.0
 			puts "#{user_name.capitalize}, you are overweight."
 		elsif bmi >= 30.0
 			puts "Uh oh #{user_name.capitalize}! You are obese."
