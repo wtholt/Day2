@@ -120,7 +120,7 @@ if quiz_time == "yes" || quiz_time == "Yes"
 	puts quiz[1][:question]
 	puts quiz[1][:answer_choices]
 	answer_two = gets.chomp
-	if answer_two == "C" || answer_two == "Buenos Aires" || answer_two == "c" || answer_two == "buenos aires"
+	if answer_two == "C" || answer_two == "Buenos Aires" || answer_two == "c" || answer_two == "buenos aires" || answer_two == "Buenos aires"
 		quiz_answers.push(answer_two)
 	else
 	end
@@ -176,7 +176,7 @@ if quiz_time == "yes" || quiz_time == "Yes"
 	puts quiz[8][:question]
 	puts quiz[8][:answer_choices]
 	answer_nine = gets.chomp
-	if answer_nine == "A" || answer_nine == "Mexico City" || answer_nine == "a" || answer_nine == "mexico city"
+	if answer_nine == "A" || answer_nine == "Mexico City" || answer_nine == "a" || answer_nine == "mexico city" || answer_nine == "Mexico city"
 		quiz_answers.push(answer_nine)
 	else
 	end
