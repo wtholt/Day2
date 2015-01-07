@@ -103,7 +103,10 @@ quiz = [question_one, question_two, question_three, question_four, question_five
 
 quiz_answers = []
 
-puts "Would you like to take a quiz? Type yes or no"
+puts "What is your name? "
+user_name = gets.chomp
+
+puts "#{user_name.capitalize}, would you like to take a quiz? Type Yes or No."
 quiz_time = gets.chomp
 if quiz_time == "yes" || quiz_time == "Yes"
 	puts quiz[0][:question]
@@ -187,7 +190,7 @@ if quiz_time == "yes" || quiz_time == "Yes"
 	end
 
 results = quiz_answers.length
-puts "Thank you for taking this quiz! You got #{results} out of 10 right!"
+puts "Thank you for taking this quiz #{user_name}! You got #{results} out of 10 right!"
 
 else
 	puts "That's OK, you don't have to take a quiz."
