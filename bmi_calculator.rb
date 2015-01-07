@@ -1,6 +1,9 @@
-puts "Hello, would you like to measure your BMI? Type yes or no"
+puts "What is your name? "
+user_name = gets.chomp
+
+puts "Hello #{user_name.capitalize}, would you like to measure your BMI? Type Yes or No"
 answer = gets.chomp
-if answer == "yes"
+if answer == "yes" || answer == "Yes"
 	puts "Please enter your weight: "
 	weight = gets.chomp
 	puts "Please enter your height in inches: "
@@ -11,14 +14,14 @@ if answer == "yes"
 	puts "Your BMI is #{bmi.to_f}"
 
 		if bmi < 18.5
-			puts "You are underweight."
+			puts "#{user_name.capitalize}, you are underweight."
 		elsif bmi <= 24.9
-			puts "Congratulations, you are at a normal weight."
+			puts "Congratulations #{user_name.capitalize}, you are at a normal weight."
 		elsif bmi >= 25.0
-			puts "You are overweight."
+			puts "#{user_name.capitalize}, you are overweight."
 		elsif bmi >= 30.0
-			puts "Uh oh! You are obese."
+			puts "Uh oh #{user_name.capitalize}! You are obese."
 		end
 else
-	puts "OK you don't have to measure your BMI"
+	puts "OK #{user_name.capitalize}, you don't have to measure your BMI."
 end
